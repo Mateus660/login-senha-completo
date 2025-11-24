@@ -3,6 +3,7 @@
 body {
     box-sizing: border-box;
     padding: 0;
+    background-color: blueviolet;
 }
 
 #tela-de-cadastro {
@@ -11,31 +12,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 500px;
     color: white;
     border-radius: 10px;
     flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     background-color: blueviolet;
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-header {
+#titulo {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: blueviolet;
     margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 #inputs input {
   width: 92%;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   padding: 8px 10px;
   border-radius: 6px;
   border: 1px solid #999;
@@ -58,4 +57,13 @@ button {
 
 button:hover {
     border: 3px solid black;
+}
+
+main {
+    display: flex;          /* coloca os elementos lado a lado */
+    align-items: flex-start; /* alinha pelo topo */
+    justify-content: center; /* centraliza tudo horizontalmente */
+    gap: 30px;               /* espaço entre os dois blocos */
+    margin-top: 40px;        /* opcional */
+    margin-left: 0px;
 }

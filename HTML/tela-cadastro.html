@@ -8,31 +8,27 @@
 </head>
 <body>
     <main>
-        <header><h1>Faça seu cadastro aqui</h1></header>
+        <div  id="titulo"><h1>Faça seu cadastro aqui</h1><img src="../IMG/image-removebg-preview.png"  width="400" alt="" srcset=""></div>
         <section id="tela-de-cadastro"> 
             <h1>Cadastre-se</h1>
             <div id="inputs">
-                <label for="nome" id="labelnome">
-                <input type="text" name="nome" id="Nome" placeholder="Nome">
-                </label>
+                <label for="nome" id="labelnome">Insira seu nome</label>
+                <input type="text" name="nome" id="Nome" placeholder="Nome" onkeyup="Nomecorr()">
 
-                <label for="usuario" id="labelusuario">
-                    <input type="text" name="usuario" id="usuario" placeholder="Usuario">
-                </label>
+                <label for="usuario" id="labelusuario">Nome de usuario</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
 
-                <label for="senha" id="labelsenha">
-                    <input type="text" name="senha" id="senha" placeholder="Senha">
-                </label>
+                <label for="senha" id="labelsenha">Crie sua senha</label>
+                <input type="text" name="senha" id="senha" placeholder="Senha">
 
-                <label for="comfirmsenha" id="labelconfirmsenha">
-                    <input type="text" name="comfirmsenha" id="comfirmsenha" placeholder="Comfirme a senha">
-                </label>
+                <label for="comfirmsenha" id="labelconfirmsenha">Confirme sua senha</label>
+                <input type="text" name="comfirmsenha" id="comfirmsenha" placeholder="Comfirme a senha">
 
-                <button type="submit">Cadastrar</button>
+                <button type="submit" onclick="iniciar()">Cadastrar</button>
                 <button type="reset">Limpar</button>
             </div>
         </section>
     </main>
 </body>
-<script src="../JAVACSRIPT/cadastro.js"></script>
+<script src="../JAVASCRIPT/cadastro.js"></script>
 </html>
