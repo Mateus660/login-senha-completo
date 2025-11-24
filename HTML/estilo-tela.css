@@ -6,7 +6,7 @@ body {
 }
 
 #tela-de-cadastro {
-    padding: 2px;
+    padding: 10px;
     background-color: darkgray;
     display: flex;
     align-items: center;
@@ -14,6 +14,10 @@ body {
     width: 300px;
     color: white;
     border-radius: 10px;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-color: blueviolet;
     
     position: absolute;
     top: 50%;
@@ -24,5 +28,17 @@ body {
 header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.8em;
+    color: blueviolet;
+}
+
+#inputs input {
+  width: 92%;
+  margin-bottom: 5px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #999;
+  font-size: 1rem;
+  background: white;
+  color: #111;
 }
